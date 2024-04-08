@@ -1,0 +1,102 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #3F322C
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("./images/nairobi.jpg");
+    background-size: cover;
+    height: 350px;
+    /* border: 1px dashed #1D3557 */
+}
+
+.activities-img {
+    border-radius: 50%;
+}
+
+.activities-disc {
+    width: 150px;
+}
+
+.guide {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #F0E8B6;
+    border-radius: 5px;
+    border-bottom: 5px solid #1D3557;
+    color: 3F322C;
+}
+
+#activites {
+    background: #EEE9C5;
+    color: #3F322C;
+    /* border: 1px dashed #1D3557 */
+}
+
+#activities-sub {
+    display: flex;
+    justify-content: space-around;
+}
+
+#guide-img {
+    width: 200px;
+}
+
+#guide-disc {
+    width: 150px;
+}
+
+h1 {
+    font-size: large;
+    background: #B39F75;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: x-small;
+    background: #3F322C;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+h3 {
+    margin: 0;
+    padding: 20px 0 30px;
+}
+
+h4 {
+    font-size: small;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: small
+}
