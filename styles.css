@@ -26,6 +26,7 @@ img {
     color: white;
     background-image: url("./images/nairobi.jpg");
     background-size: cover;
+    background-position: center;
     height: 350px;
     /* border: 1px dashed #1D3557 */
 }
